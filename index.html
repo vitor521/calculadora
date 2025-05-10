@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title> Calculadora de média</title>
+</head>
+<link rel="stylesheet" href="style.css">
+
+<body>
+    <div class="container">
+        <div id="main">
+            <h1 class="page-title">
+                Calculadora de média</h1>
+            <p class="page-subtitle">
+                Descubra qual a sua média de nota de todas as provas!
+            </p>
+
+            <input type="number" min="0" max="10" id="nota_1" placeholder="Insira a primeira nota">
+
+            <input type="number" min="0" max="10" id="nota_2" placeholder="Insira a segunda nota">
+
+            <input type="number" min="0" max="10" id="nota_3" placeholder="Insira a terceira nota">
+
+            <input type="number" min="0" max="10" id="nota_4" placeholder="Insira a quarta nota">
+
+            <button id="calcular" onclick="calcular()">Calcular
+            </button>
+            <p id="calculo"> A sua média é: <span id="media"></span>
+            </p>
+            <p id="status"></p>
+
+        </div>
+    </div>
+
+
+
+    <script src="app.js"></script>
+
+
+
+
+
+</body>
+
+</html>
