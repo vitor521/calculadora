@@ -1,6 +1,7 @@
+
 function calcular() {
 
-    let n1, n2, n3, media;
+    let n1, n2, n3, n4, media;
 
     n1 = document.getElementById('nota_1').value;
     n2 = document.getElementById('nota_2').value;
@@ -10,15 +11,18 @@ function calcular() {
     media = (parseFloat(n1) + parseFloat(n2) + parseFloat(n3) +
         parseFloat(n4)) / 4
 
-    document.getElementById('media').innerHTML = media
+    document.getElementById('media').innerHTML = media;
 
-// se será aprovado
+
+// se será aprovado {
+   
+
 
 if (media < 5)
     document.getElementById('status').innerHTML = "Que pena, está Reprovado"
 
-
-else 
+else
     document.getElementById('status').innerHTML = "Parabéns, está aprovado"
    
 }
+
